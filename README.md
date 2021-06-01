@@ -5,7 +5,7 @@ Created in Python 3.X.
 In this very first version, start the porgram by executing Sudoku.py. Choose the desired difficulty by typing number from 1-4.
 
 ## Requirements
-  - Python 3.X
+  - **Python 3.X**
   - **Modules:**
     - threading
     - os
@@ -13,7 +13,9 @@ In this very first version, start the porgram by executing Sudoku.py. Choose the
     - time
     - math
     - random
-##
 
+## Rules of Sudoku:
+https://www.gamesver.com/sudoku-rules-for-beginners-all-you-need-to-know/
+##
 ### Enjoy.
   - MrJoeKr
