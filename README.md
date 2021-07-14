@@ -2,7 +2,14 @@
 This program is a game of Sudoku which is possible to solve either by yourself or by an algorithm called Backtrack!
 Created in Python 3.X.
 
-In this very first version, start the porgram by executing Sudoku.py. Choose the desired difficulty by typing number from 1-4.
+In this very first version, start the porgram by executing Sudoku.py. Choose the desired difficulty by typing number from 1-4 **in the console**.
+You have three tries, after that you lose and can generate a new Sudoku.
+
+## Controls
+**LEFT MOUSE CLICK** - click on the square you want to fill
+**KEYS 1 - 9** - put number into highlighted square
+**ENTER** - Submit the number - the program tells you if the number is correct or not
+**SPACE (TWO TIMES)** - Get the solution (Backtrack algorithm visualization)
 
 ## Requirements
   - **Python 3.X**
