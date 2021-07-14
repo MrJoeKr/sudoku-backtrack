@@ -229,11 +229,9 @@ def find_solution_visualize(grid, x, y):
 		x = 0
 		y += 1
 
-	# print(x, y, len(grid))
 
 	# Terminal case
 	if x == 0 and y == len(grid):
-		# print('done')
 		return True
 
 	# Go to next number if it's clue
@@ -376,7 +374,6 @@ class Cell:
 		pygame.draw.rect(WIN, WHITE, cell)
 
 	def is_correct(self):
-		print(self.pencil_value, self.real_value)
 		if self.pencil_value == self.real_value:
 			self.correct = True
 		return self.pencil_value == self.real_value
@@ -482,7 +479,6 @@ def draw_grid(grid, start_x, start_y):
 			cell.y = y
 			cell.draw()
 			if pos % 3 == 2:
-				# print(pos)
 				space = 6
 			else:
 				space = 2
@@ -635,7 +631,6 @@ def main(clues_num):
 						# Put the pencil value into the cell
 						if pencil_value_input != 0:
 							cell.pencil_value = pencil_value_input
-							# print(cell, cell.pencil_value)
 
 						# If value is submitted
 						if submitted and cell.is_correct():
@@ -650,7 +645,6 @@ def main(clues_num):
 							cell.pencil_value != 0 and
 							wrong_ans < 3):
 							wrong_ans += 1
-							print(wrong_ans)
 
 
 		# If users input is wrong
@@ -705,7 +699,6 @@ def main(clues_num):
 					if event.key == KEY:
 						clicked_key = True
 						pencil_value_input = KEY - 48 #It's K + 48 for some reason
-						# print(pencil_value_input)
 
 				if user_win or user_lost or done_filling:
 						# RESETTING ALL VARIABLES
