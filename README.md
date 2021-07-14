@@ -6,10 +6,10 @@ In this very first version, start the porgram by executing Sudoku.py. Choose the
 You have three tries, after that you lose and can generate a new Sudoku.
 
 ## Controls
-**LEFT MOUSE CLICK** - click on the square you want to fill
-**KEYS 1 - 9** - put number into highlighted square
-**ENTER** - Submit the number - the program tells you if the number is correct or not
-**SPACE (TWO TIMES)** - Get the solution (Backtrack algorithm visualization)
+**_LEFT MOUSE CLICK_** -> click on the square you want to fill  
+**_KEYS 1 - 9_** -> put number into highlighted square  
+**_ENTER_** -> Submit the number - the program tells you if the number is correct or not  
+**_SPACE (TWO TIMES)_** -> Get the solution (Backtrack algorithm visualization)  
 
 ## Requirements
   - **Python 3.X**
