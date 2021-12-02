@@ -280,8 +280,6 @@ def is_grid_full(grid):
 # -----------------------------------------
 def fill_grid(grid, x, y):
 
-	# Good solution
-
 	# Go one row down if x is out of bounds
 	if x == len(grid[0]):
 		x = 0
@@ -352,7 +350,6 @@ class Cell:
 		self.submitted = False
 		# If user's submit is correct
 		self.correct = False
-		#
 		self.clue = False
 		# For visualization algorithm
 		self.recorrected = False
